@@ -1,0 +1,23 @@
+/* Center the image */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Set a specific width and height */
+img {
+    width: 300px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Add a border to the image */
+img {
+    border: 2px solid #000;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Add a shadow to the image */
+img {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
